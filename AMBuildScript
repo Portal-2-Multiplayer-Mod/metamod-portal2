@@ -514,7 +514,7 @@ class MMSConfig(object):
       dynamic_libs = ['libtier0.dylib', 'libvstdlib.dylib']
     elif compiler.target.platform == 'windows':
       libs = ['tier0', 'tier1', 'vstdlib']
-      if sdk.name in ['swarm', 'blade', 'insurgency', 'doi', 'mcv', 'csgo', 'dota', 'portal2']]:
+      if sdk.name in ['swarm', 'blade', 'insurgency', 'doi', 'mcv', 'csgo', 'dota', 'portal2']:
         libs.append('interfaces')
       if sdk.name == 'bms':
         libs.append('mathlib')
